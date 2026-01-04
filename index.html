@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Widgets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/dot-matrix" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="grid-overlay"></div>
+
+    <header>
+        <nav>
+            <div class="logo">ESSENTIAL (WIDGETS)</div>
+            <ul>
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#widgets" class="nav-link">Widgets</a></li>
+                <li><a href="#links" class="nav-link">Links</a></li>
+                <li><a href="#contributors" class="nav-link">Contributors</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="ESSENTIAL WIDGETS">Essential Widgets</h1>
+                <p class="subtitle">Community Driven</p>
+                <div class="scroll-indicator">Scroll</div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>(1) About</h2>
+                <div class="about-content">
+                    <p class="lead n-serif">A Nothing community-driven project that aims to bring widgets to the next
+                        level by adding the community personality. Essential Widgets is not just a collection; it's a
+                        manifesto of user-centric design, stripping away the unnecessary to reveal the core function in
+                        its most beautiful form.</p>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="label">Project</span>
+                            <span class="value">Essential Widgets</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="label">Platform</span>
+                            <span class="value">Nothing OS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="label">License</span>
+                            <span class="value">Open Source</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="label">Status</span>
+                            <span class="value">Upcoming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="widgets">
+            <div class="container">
+                <h2>(2) Widgets</h2>
+                <div class="marquee-wrapper">
+                    <div class="marquee-row" id="marquee-row-1">
+                        <!-- Content populated by JS -->
+                    </div>
+                    <div class="marquee-row" id="marquee-row-2">
+                        <!-- Content populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="links">
+            <div class="container">
+                <h2>(3) LINKS</h2>
+                <div class="links-grid">
+                    <a href="https://github.com/Essential-Dots/Essential-Widgets" target="_blank" class="link-card">
+                        <div class="link-icon">(GH)</div>
+                        <span class="widget-title">GITHUB</span>
+                        <span class="widget-desc">Source Code & Releases</span>
+                    </a>
+                    <a href="https://discord.gg/pcV6Rj9S7F" target="_blank" class="link-card">
+                        <div class="link-icon">(DS)</div>
+                        <span class="widget-title">DISCORD</span>
+                        <span class="widget-desc">Join the Community</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contributors">
+            <div class="container">
+                <h2>(4) CONTRIBUTORS</h2>
+                <div class="contributors-list">
+                    <a href="https://linktr.ee/apheff" class="contributor-pill" target="_blank">Apheff (Developer)</a>
+                    <div class="contributor-pill">ItzNotHj (Designer)</div>
+                    <div class="contributor-pill">Prakhar (Designer)</div>
+                    <a href="https://linktr.ee/prostmitwein" class="contributor-pill" target="_blank">prostmitwein
+                        (Web-Developer)</a>
+                    <div class="contributor-pill">Helheimr (Designer)</div>
+                    <div class="contributor-pill">Sink (Tester)</div>
+                    <div class="contributor-pill">MannyQLF (Designer)</div>
+                    <div class="contributor-pill">Aleks King (Designer)</div>
+                    <div class="contributor-pill">Inter (Developer)</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="fab-container">
+        <div class="settings-menu" id="settingsMenu">
+            <div class="settings-header">Settings</div>
+            <div class="setting-item">
+                <label>Accent</label>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-setting="accent" data-value="red">Red</button>
+                    <button class="toggle-btn" data-setting="accent" data-value="yellow">Yellow</button>
+                </div>
+            </div>
+            <div class="setting-item">
+                <label>THEME</label>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-setting="theme" data-value="dark">DRK</button>
+                    <button class="toggle-btn" data-setting="theme" data-value="light">LGT</button>
+                </div>
+            </div>
+        </div>
+        <button class="fab" id="settingsBtn">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+    </div>
+
+
+    <footer>
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>ESSENTIAL WIDGETS &nbsp;&bull;&nbsp; EST. 2025 &nbsp;&bull;&nbsp; COMMUNITY DRIVEN
+                    &nbsp;&bull;&nbsp;
+                    NOTHING OS &nbsp;&bull;&nbsp; DEVELOPED BY CorruptPriest &nbsp;&bull;&nbsp; </span>
+                <span>ESSENTIAL WIDGETS &nbsp;&bull;&nbsp; EST. 2025 &nbsp;&bull;&nbsp; COMMUNITY DRIVEN
+                    &nbsp;&bull;&nbsp;
+                    NOTHING OS &nbsp;&bull;&nbsp; DEVELOPED BY CorruptPriest &nbsp;&bull;&nbsp; </span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="widget-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModalBtn">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img id="modal-img" src="" alt="Widget Preview">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modal-title">Widget Name</h2>
+                    <div class="modal-meta">
+                        <span class="widget-version">v1.0</span>
+                        <span class="contributor-pill">Community</span>
+                    </div>
+                    <p id="modal-desc">Widget description goes here.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
+<!-- Developed by Naman Bhotika-Edited by gemini for fixing naming schemes and documentation. -->

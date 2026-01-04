@@ -1,0 +1,95 @@
+Documentation from index.html:
+----------------------------
+- Using a dot matrix font from Google Fonts if available, or a fallback
+- FAB & Settings
+- Widget Detail Modal
+
+Documentation from script.js:
+----------------------------
+- Custom Cursor
+- Cursor Hover Effect
+- Dynamic hover for new elements (if any) or just general text hover
+- Hover effects
+- Scroll Reveal
+- Optional: disable for now to avoid layout shift issues with 3D
+- Glitch Effect
+- Number Scramble
+- Technical Flyouts Trigger
+- Observe the parent machine card to trigger the overlay
+- --- Settings & Theme Logic ---
+- Toggle Settings Menu
+- Close menu when clicking outside
+- Handle Toggles
+- Update UI
+- Apply Setting
+- Load Preferences
+- Apply saved values
+- Update UI state
+- Reset all first
+- Set active
+- Widget Marquee Population
+- Split images into two sets for the two rows
+- Populate Row 1 (Left to Right)
+- Duplicate content for seamless loop
+- Populate Row 2 (Right to Left)
+- Duplicate content for seamless loop
+- Modal Logic
+- Optional: Clear src after transition to avoid flicker, but not strictly necessary
+- Close on Escape key
+- Add click listener to open modal
+
+Documentation from style.css:
+----------------------------
+- Deep Black
+- New Heading Font
+- New Body Font
+- Alias for compatibility if needed, or replace usages
+- Glass Variables
+- Darker, more transparent
+- Subtle white border
+- Deep blur
+- Theme Variables
+- Red glow by default
+- Default dot color
+- Glazed off-white (slightly darker/grayer than #e6e6e6)
+- Slightly more transparent
+- Softer spotlight
+- Black dots for light mode
+- Spotlight Gradient Background
+- Noise Overlay
+- Custom Cursor
+- Clear on hover
+- Very subtle fill
+- Zoom effect
+- Grid Overlay
+- Prominent Dots
+- Use variable
+- Typography
+- Mixed case allowed
+- Keep these uppercase if desired, or remove
+- Header
+- Let the blur do the work
+- Thinner line
+- Hero Section
+- Slightly smaller for mono
+- Pill shape
+- Sections
+- About Specs
+- Gallery Grid (Widgets)
+- More rounded
+- Deep Blur
+- Darker preview area
+- Links & Contributors
+- FAB & Settings
+- Darker glass
+- Slightly more gap
+- Animate hamburger to X
+- Very dark glass
+- Max blur
+- Footer Marquee
+- Responsive
+- Widget Modal
+- Widget Modal Mobile
+- Widget Marquee Styles
+- Updated Widget Card for Marquee
+- Frosted Glass
