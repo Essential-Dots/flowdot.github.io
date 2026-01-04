@@ -1,2 +1,2 @@
 # essential-dots.github.com
-Essential Dot's Ufficial site
+Essential Dot's Official site
