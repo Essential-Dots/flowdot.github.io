@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=Inter:wght@400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=Inter:wght@400;600&display=swap"
         rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/dot-matrix" rel="stylesheet">
 </head>
@@ -19,6 +19,7 @@
     <div class="cursor-outline"></div>
 
     <div class="grid-overlay"></div>
+    <div class="spotlight-overlay"></div>
 
     <header>
         <nav>
@@ -42,9 +43,40 @@
             </div>
         </section>
 
+        <section id="countdown">
+            <div class="countdown-fixed">
+                <div class="container">
+                    <h2>(1) LAUNCH</h2>
+                    <div class="countdown-container">
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="days">000</span>
+                            <span class="countdown-label">DAYS</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="hours">00</span>
+                            <span class="countdown-label">HRS</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="minutes">00</span>
+                            <span class="countdown-label">MIN</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="seconds">00</span>
+                            <span class="countdown-label">SEC</span>
+                        </div>
+                    </div>
+                    <p class="countdown-target">TARGET: DEC 9 2026</p>
+                    <div class="scroll-indicator">Scroll</div>
+                </div>
+            </div>
+        </section>
+
         <section id="about">
             <div class="container">
-                <h2>(1) About</h2>
+                <h2>(2) About</h2>
                 <div class="about-content">
                     <p class="lead n-serif">A Nothing community-driven project that aims to bring widgets to the next
                         level by adding the community personality. Essential Widgets is not just a collection; it's a
@@ -74,7 +106,7 @@
 
         <section id="widgets">
             <div class="container">
-                <h2>(2) Widgets</h2>
+                <h2>(3) Widgets</h2>
                 <div class="marquee-wrapper">
                     <div class="marquee-row" id="marquee-row-1">
                         <!-- Content populated by JS -->
@@ -88,7 +120,7 @@
 
         <section id="links">
             <div class="container">
-                <h2>(3) LINKS</h2>
+                <h2>(4) LINKS</h2>
                 <div class="links-grid">
                     <a href="https://github.com/Essential-Dots/Essential-Widgets" target="_blank" class="link-card">
                         <div class="link-icon">(GH)</div>
@@ -106,7 +138,7 @@
 
         <section id="contributors">
             <div class="container">
-                <h2>(4) CONTRIBUTORS</h2>
+                <h2>(5) CONTRIBUTORS</h2>
                 <div class="contributors-list">
                     <a href="https://linktr.ee/apheff" class="contributor-pill" target="_blank">Apheff (Developer)</a>
                     <div class="contributor-pill">ItzNotHj (Designer)</div>
